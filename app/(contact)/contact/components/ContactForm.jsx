@@ -165,7 +165,7 @@ const ContactForm = ({ onSubmit }) => {
                         <Input
                             {...register("subject", { required: "Subject is required" })}
                             type="text"
-                            placeholder="Let's collaborate on something amazing"
+                            placeholder={"Let's collaborate on something amazing"}
                             className="rounded-lg border-primary/20 focus:border-primary/50 transition-all duration-300"
                         />
                     </motion.div>
