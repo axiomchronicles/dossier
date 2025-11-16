@@ -63,7 +63,7 @@ const ContactForm = ({ onSubmit }) => {
                 >
                     <HiCheckCircle className="w-5 h-5 text-cyan-400 flex-shrink-0" />
                     <p className="text-sm text-white">
-                        Message sent successfully! I'll get back to you soon.
+                        {"Message sent successfully! I'll get back to you soon."}
                     </p>
                 </motion.div>
             )}
@@ -165,7 +165,7 @@ const ContactForm = ({ onSubmit }) => {
                         <Input
                             {...register("subject", { required: "Subject is required" })}
                             type="text"
-                            placeholder="Let's collaborate on something amazing"
+                            placeholder={"Let's collaborate on something amazing"}
                             className="rounded-lg border-primary/20 focus:border-primary/50 transition-all duration-300"
                         />
                     </motion.div>
